@@ -1,0 +1,27 @@
+{
+  "name": "desinfektor",
+  "version": "1.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sg": "gulp"
+  },
+  "author": "Deine Mama",
+  "license": "MIT",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "dependencies": {
+    "grunt-contrib-compress": "latest",
+    "grunt-contrib-imagemin": "latest",
+    "grunt-contrib-htmlmin": "latest",
+    "async": "latest",
+    "foundation-sites": "6.2.4",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "lity": "^2.2.2",
+    "load-grunt-tasks": "^3.5.2",
+    "node-sass": "^4.2.0"
+  }
+}
