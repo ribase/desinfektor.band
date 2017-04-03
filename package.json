@@ -12,6 +12,7 @@
     "node": "5.9.1"
   },
   "dependencies": {
+    "node-sass": "^4.2.0",
     "grunt-contrib-compress": "latest",
     "grunt-contrib-imagemin": "latest",
     "grunt-contrib-htmlmin": "latest",
@@ -21,7 +22,6 @@
     "gulp-concat": "^2.6.1",
     "gulp-sass": "^3.1.0",
     "lity": "^2.2.2",
-    "load-grunt-tasks": "^3.5.2",
-    "node-sass": "^4.2.0"
+    "load-grunt-tasks": "^3.5.2"
   }
 }
