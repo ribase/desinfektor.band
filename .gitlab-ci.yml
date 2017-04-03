@@ -17,14 +17,12 @@ build:
 
 deploy:
   image: publysher/hugo
-  production:
-    type: deploy
-    before_script:
-    - apt-get update
-    - apt-get -qq install python python-pip ca-certificates
-    - pip install awscli
-    script:
-    - hugo
-    - aws s3 sync ./dist/ s3://$AWS_BUCKET
-    only:
-    - master
+  script:
+  - apt-get update
+  - apt-get -qq install python python-pip ca-certificates
+  - pip install awscli
+  script:
+  - hugo
+  - aws s3 sync ./dist/ s3://$AWS_BUCKET
+  only:
+  - master
